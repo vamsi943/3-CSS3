@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 10px;
+            width: 165px;
+            height: 165px;
+            background: url("se2.jpg")no-repeat;
+            position: relative;
+            animation: repeatit 1s linear 1s infinite alternate;
+        }
+        @keyframes repeatit{
+            from{left: 0;}
+            to{left: 70%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
